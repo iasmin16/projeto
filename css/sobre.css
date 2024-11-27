@@ -1,0 +1,49 @@
+.container{
+    background-color: rgb(171, 203, 192);
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: auto;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(83,140,111), white)
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+ul{
+    background: white;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(83,140,111), white)
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: rgb(12, 69, 50);
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+li a:hover{
+    background: rgb(94, 197, 94);
+    
+}
+
